@@ -1,0 +1,33 @@
+
+.quote-item {
+    height: 200px;
+    border: 1px solid #aaa;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.quote-item h2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.quote-item quote {
+    margin-top: 10px;   
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-item h2 span {
+    flex-grow: 1;
+}
+
+.quote-item img {
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

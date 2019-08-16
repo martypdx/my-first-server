@@ -1,0 +1,18 @@
+
+.options-section {
+    background: #fdf6eb;
+    padding: 30px 10px;
+    grid-area: options;
+}
+
+.list-section {
+    padding: 20px 10px;
+    grid-area: list;
+}
+
+@media (min-width:900px) {
+    main {
+        display: grid;
+        grid-template-areas: 'options list';
+    }
+} 
